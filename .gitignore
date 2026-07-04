@@ -1,0 +1,52 @@
+# Gizli bilgiler — asla repoya ekleme
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Sanal ortam — klasör adından bağımsız olarak yakala
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+dwh-doc-agent/
+
+# Kalıcı veri dosyaları — hassas içerik, repoya ekleme
+data/
+
+# Geçici dosyalar
+tmp/
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code — yerel/kişisel ayarlar
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend build
+frontend/node_modules/
+frontend/dist/
+
+# Test çıktıları
+.pytest_cache/
+.coverage
+htmlcov/
