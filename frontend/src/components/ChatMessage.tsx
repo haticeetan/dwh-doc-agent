@@ -1,6 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Database, User, AlertCircle, Check, X, ShieldCheck } from 'lucide-react';
+import { Database, User, AlertCircle, Check, X } from 'lucide-react';
 import { Message } from '../types';
 import { DownloadCard } from './DownloadCard';
 
